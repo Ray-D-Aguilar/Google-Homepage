@@ -59,24 +59,25 @@ CSS RESET
 
 
 
-/* .wrapper {
+.wrapper {
     width: 800px;
-    width: 100%;
+    /* width: 100%; */
     margin: 0 auto;
     background-color: red;
-    /* text-align: center; 
-   } */
+     /* text-align: center;  */
+   }
 
   .flex-nav {
       display: flex;
       justify-content: center;
-      background-color: red;
+      background-color: grey;
+      padding: 0 5px 0 5px;
   }
 
 
-  .about-flex{
+  /* .about-flex{
         display:flex;
         justify-content: space-evenly;
   }
 
-  .gmail
+  .gmail */
