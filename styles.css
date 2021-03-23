@@ -92,7 +92,8 @@ flex-nav is a div for the entire navigation bar, the divs "about-flex" and "gmai
   .flex-nav { 
       display: flex;
       justify-content: space-between;
-      padding: 0 5px 0 5px;
+      padding: 10px 7px 0 7px;
+
   }
 
 
