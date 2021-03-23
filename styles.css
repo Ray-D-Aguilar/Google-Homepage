@@ -121,4 +121,21 @@ flex-nav is a div for the entire navigation bar, the divs "about-flex" and "gmai
       width: 40%;
   }
 
-  
+  /*
+  *
+  *
+  MAIN SECTION
+  *
+  *
+  */
+
+  .main-flex{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+  }
+
+  .searchbtns-flex {
+
+  }
+
