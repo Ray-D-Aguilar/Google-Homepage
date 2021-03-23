@@ -71,7 +71,6 @@ the element wraps around the whole body element
     width: 85%;
     margin: 0 auto;
     background-color: red;
-     /* text-align: center;  */
    }
 
 
@@ -131,8 +130,11 @@ flex-nav is a div for the entire navigation bar, the divs "about-flex" and "gmai
 
   .main-flex{
     display: flex;
-    flex-flow: column wrap;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 100vh;
   }
 
   .searchbtns-flex {
