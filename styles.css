@@ -67,7 +67,6 @@ the element wraps around the whole body element
 *
 */
 .wrapper {
-    /* width: 800px; */
     width: 85%;
     margin: 0 auto;
     background-color: red;
