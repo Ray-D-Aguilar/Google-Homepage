@@ -58,7 +58,14 @@ CSS RESET
 */
 
 
-
+/* 
+*
+*
+Wrapper for the entire website, 
+the element wraps around the whole body element
+*
+*
+*/
 .wrapper {
     /* width: 800px; */
     width: 85%;
@@ -67,22 +74,51 @@ CSS RESET
      /* text-align: center;  */
    }
 
-  .flex-nav {
+
+/*
+*
+*
+Navigation section
+*
+*
+*/
+
+
+/*
+*
+flex-nav is a div for the entire navigation bar, the divs "about-flex" and "gmail-flex" nest inside it 
+*
+*/
+
+  .flex-nav { 
       display: flex;
       justify-content: space-between;
-      background-color: grey;
       padding: 0 5px 0 5px;
   }
 
 
-  .about-flex{
+  /*
+  *
+   "about-flex" is a div that nests the links to the "About" and "Store" on the left side of the navigation bar, used flex to fix the spacing issue
+   *
+   */
+
+  .about-flex{ 
         display:flex;
         justify-content: space-between;
         width: 15%;
   }
 
-  .gmail-flex{
+  /* 
+  *
+  gmail-flex is a div that nests the links to the gmail, images, placeholder, and sign in links. This div sits on the right side of the navigation bar. Used flex to fix the spacing issue within the div
+  *
+  */
+
+  .gmail-flex{  
       display: flex;
       justify-content: space-between;
       width: 40%;
   }
+
+  
