@@ -128,6 +128,12 @@ flex-nav is a div for the entire navigation bar, the divs "about-flex" and "gmai
   *
   */
 
+  /*
+  *
+  main-flex is a div that nests the elements for the form data/search bar, buttons, and the company logo. Main-flex is aligned and centered in a way so that it sits in the center of the screen, and isn't pushed vertically to the top of the page
+  *
+  */
+
   .main-flex{
     display: flex;
     flex-direction: column;
@@ -137,7 +143,12 @@ flex-nav is a div for the entire navigation bar, the divs "about-flex" and "gmai
     min-height: 100vh;
   }
 
-  .searchbtns-flex {
+  /*
+  *
 
-  }
+  *
+  */
+
+
+  
 
