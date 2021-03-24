@@ -94,7 +94,22 @@ flex-nav is a div for the entire navigation bar, the divs "about-flex" and "gmai
       padding: 10px 7px 0 7px;
 
   }
+  .nav {
+    text-decoration: none;
+    color: black;
+  }
 
+  #signin {
+    background-color: red;
+    border-radius: 15%;
+    border: solid black 2px;
+    padding: 1px 3px 1px 3px;
+    margin-bottom: 5px;
+  }
+
+  #signin:hover {
+    background-color: blue;
+  }
 
   /*
   *
@@ -152,6 +167,14 @@ flex-nav is a div for the entire navigation bar, the divs "about-flex" and "gmai
 
   .main-item {
     margin: 5px 0 5px 0;
+  }
+
+  .footer-flex{
+    display: flex;
+  }
+
+  .li-space {
+    margin: 5px 10px 5px 10px
   }
 
   
