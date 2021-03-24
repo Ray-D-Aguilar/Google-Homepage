@@ -69,7 +69,7 @@ the element wraps around the whole body element
 .wrapper {
     width: 85%;
     margin: 0 auto;
-    background-color: red;
+
    }
 
 
@@ -141,6 +141,7 @@ flex-nav is a div for the entire navigation bar, the divs "about-flex" and "gmai
     align-items: center;
     text-align: center;
     min-height: 100vh;
+    background-color: green;
   }
 
   /*
@@ -149,6 +150,9 @@ flex-nav is a div for the entire navigation bar, the divs "about-flex" and "gmai
   *
   */
 
+  .main-item {
+    margin: 5px 0 5px 0;
+  }
 
   
 
