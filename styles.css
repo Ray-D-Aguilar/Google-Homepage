@@ -111,7 +111,7 @@ flex-nav is a div for the entire navigation bar, the divs "about-flex" and "gmai
     background-color: blue;
   }
 
-  /*
+  /* 
   *
    "about-flex" is a div that nests the links to the "About" and "Store" on the left side of the navigation bar, used flex to fix the spacing issue
    *
