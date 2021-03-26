@@ -99,6 +99,8 @@ flex-nav is a div for the entire navigation bar, the divs "about-flex" and "gmai
     color: black;
   }
 
+  
+
   #signin {
     background-color: red;
     border-radius: 15%;
@@ -109,7 +111,10 @@ flex-nav is a div for the entire navigation bar, the divs "about-flex" and "gmai
 
   #signin:hover {
     background-color: blue;
+    color: white;
   }
+
+
 
   /* 
   *
